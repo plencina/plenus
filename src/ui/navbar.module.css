@@ -1,0 +1,65 @@
+.main {
+    position: fixed;
+    top: -5rem;
+    width: 100%;
+    height: 5rem;
+    background: rgba(255, 255, 255, .02);
+    border-bottom: solid 1px rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 99;
+    padding: 0 2rem;
+    display: flex;
+}
+
+.appear {
+    animation: appear 1s ease forwards;
+}
+
+.disappear {
+    animation: disappear 1s ease forwards;
+}
+
+.main h4 {
+    color: #ffffbf;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: solid 2px #150d04;
+    padding-bottom: .5rem;
+}
+
+.button {
+    height: 3rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .15rem;
+    flex-direction: column;
+}
+
+.line {
+    background: #ffffbf;
+    height: 3px;
+    width: 100%;
+}
+
+@keyframes appear {
+    to {
+        top: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -5rem;
+        opacity: 0;
+    }
+}

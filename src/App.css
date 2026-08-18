@@ -1,0 +1,49 @@
+.section {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h1 {
+  color: var(--color-light);
+  font-family: var(--font-formal);
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.texture {
+  background: repeating-linear-gradient(90deg,
+      #11111f 0px,
+      /* Azul negruzco */
+      #11111f 3px,
+      #000000 3px,
+      /* Azul oscuro */
+      #000000 6px)
+}
+
+.footer {
+  background: var(--color-light);
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer h3 {
+  font-family: var(--font-formal);
+  font-size: var(--font-size-3);
+}
+
+.footer p {
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 750px) {
+  .section h1 {
+    font-size: 5rem;
+  }
+}
