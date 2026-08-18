@@ -1,4 +1,4 @@
-"use client"
+/*
 import { useState, useEffect } from "react"
 import styles from "@/app/ui/navbar.module.css"
 
@@ -33,3 +33,4 @@ export default function Navbar() {
         </nav>
     )
 }
+*/
