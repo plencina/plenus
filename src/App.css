@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .footer h3 {
@@ -41,6 +42,28 @@
   margin-top: 1rem;
 }
 
+.page-status {
+  gap: .5rem;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.page-status p {
+  padding: 0;
+  margin: 0;
+}
+
+.page-status svg {
+  height: 100%;
+}
 
 @media (max-width: 750px) {
   .section h1 {
