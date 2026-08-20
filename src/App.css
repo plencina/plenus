@@ -59,6 +59,7 @@
 .page-status p {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .page-status svg {
