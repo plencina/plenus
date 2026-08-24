@@ -1,5 +1,3 @@
-import { GoAlertFill } from "react-icons/go";
-
 export default function Footer() {
     return <footer className="footer">
         <p>Decepcionado por la falsedad que corrompe al hombre</p>
