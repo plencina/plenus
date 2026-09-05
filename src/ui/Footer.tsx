@@ -11,6 +11,12 @@ export default function Footer() {
         <p>La deslealtad</p>
         <p>La humillación</p>
         <p>El fracaso</p>
+        <p>-</p>
+        <p>Hasta el mínimo disfrute supieron destruir</p>
+        <p>Supe que soy electo y tengo pruebas de ello</p>
+        <p>En el mejor tiempo de la historia</p>
+        <p>Vivir en la <strong>inmundicia</strong></p>
+        <p>-</p>
     </footer>
 }
 /*

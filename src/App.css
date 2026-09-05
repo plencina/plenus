@@ -9,7 +9,7 @@
 .section h1 {
   color: var(--color-light);
   font-family: var(--font-formal);
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 700;
 }
 
@@ -25,13 +25,12 @@
 
 .footer {
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 900;
+  font-weight: 400;
   background: var(--color-light);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
   padding: 5rem 1rem;
   gap: .2rem;
 }
@@ -44,32 +43,9 @@
 .footer p {
   font-size: var(--font-size-2);
   text-align: center;
+  font-style: italic;
 }
 
-
-.page-status {
-  gap: .5rem;
-  width: 100%;
-  background: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.page-status p {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.page-status svg {
-  height: 100%;
-}
 
 @media (max-width: 750px) {
   .section h1 {
