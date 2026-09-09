@@ -9,8 +9,7 @@
 .section h1 {
   color: var(--color-light);
   font-family: var(--font-formal);
-  font-size: 6rem;
-  font-weight: 700;
+  font-size: 4rem !important;
 }
 
 .texture {
